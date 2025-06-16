@@ -8,7 +8,7 @@
     width: 100%;
     height: 600px;
     background-image: linear-gradient(rgb(7, 2, 17),
-            rgba(7, 2, 17, 0)), url(/images/banner-img.png);
+            rgba(7, 2, 17, 0)), url(../images/banner-img.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -94,7 +94,7 @@
     height: 600px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/vector.png);
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/vector.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -169,17 +169,17 @@
     flex-direction: column;
 }
 
-.datetimetext{
+.datetimetext {
     font-size: 32px;
     font-weight: 600;
     line-height: 32px;
 }
 
-.highlight{
+.highlight {
     color: red;
 }
 
-.joinbtn{
+.joinbtn {
     color: white;
     font-size: 20px;
     padding: 16px 32px;
@@ -188,35 +188,101 @@
     border: none;
 }
 
-.nextoffer{
+.nextoffer {
     display: flex;
     align-items: center;
     margin: 140px 120px;
     justify-content: space-between;
 }
 
-.leftinfo{
+.leftinfo {
     width: 400px;
 }
-.offsub{
+
+.offsub {
     color: red;
     font-size: 24px;
     margin-bottom: 16px;
 }
 
-.offhead{
+.offhead {
     font-size: 48px;
     margin-top: 0px;
     margin-bottom: 22px;
 }
 
-.offdes{
+.offdes {
     font-size: 20px;
     color: gray;
     margin-top: 0px;
 }
-.roundimage{
+
+.roundimage {
     border: 8px solid red;
     border-radius: 50%;
     padding: 20px;
+}
+
+.holiday {
+    /* height: 986px; */
+    margin: 140px;
+    background-image: url(/images/rectangle9.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.holidaybox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 160px 0px 160px;
+}
+
+.holidaytext {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.giftbox {
+    width: 50%;
+
+}
+
+.holidaysub {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 5px;
+}
+
+.holidaytitle {
+    margin-top: 0px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+
+.holides {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 28px;
+}
+
+.twoimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount50 {
+    margin-bottom: 250px;
 }
