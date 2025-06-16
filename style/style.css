@@ -8,7 +8,7 @@
     width: 100%;
     height: 600px;
     background-image: linear-gradient(rgb(7, 2, 17),
-            rgba(7, 2, 17, 0)), url(/images/Banner\ Image.png);
+            rgba(7, 2, 17, 0)), url(/images/banner-img.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -94,7 +94,7 @@
     height: 600px;
     border-radius: 16px;
     overflow: hidden;
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/Vectorrr.png);
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/vector.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,4 +186,37 @@
     background-color: red;
     border-radius: 10px;
     border: none;
+}
+
+.nextoffer{
+    display: flex;
+    align-items: center;
+    margin: 140px 120px;
+    justify-content: space-between;
+}
+
+.leftinfo{
+    width: 400px;
+}
+.offsub{
+    color: red;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.offhead{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+.offdes{
+    font-size: 20px;
+    color: gray;
+    margin-top: 0px;
+}
+.roundimage{
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 20px;
 }
