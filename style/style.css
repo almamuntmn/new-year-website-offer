@@ -437,3 +437,10 @@
 .uns:hover{
     color: red;
 }
+
+.icon{
+        width: 16px; /* adjust size */
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
