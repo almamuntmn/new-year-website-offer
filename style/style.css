@@ -223,8 +223,8 @@
     padding: 20px;
 }
 
-.holiday{
- width: 100%;
+.holiday {
+    width: 100%;
 }
 
 .holidaybox {
@@ -290,3 +290,58 @@
     object-fit: cover;
     margin-top: 100px;
 }
+
+.portfolio {
+    margin: 120px 140px;
+}
+
+.ptext {
+    text-align: left;
+}
+
+.portsub {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.port-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.port-des {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+    width: 800px;
+}
+
+.port-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.port-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
